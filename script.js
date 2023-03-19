@@ -17,10 +17,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Do all of your work inside the document.addEventListener  
 
   // Part 1
-
+const myTitle = document.querySelector('#main-title');
+myTitle.innerHTML = '<h1>"The DOM"</h1>'
+// console.log(newTitle);
 
   // Part 2
-
+const bodyEl = document.querySelector('body')
+bodyEl.style.backgroundColor = 'orange';
 
   // Part 3
 
