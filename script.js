@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   for (const titles of specTitles) {
   titles.style.fontSize = '2rem';
   }
+  //change font size
 
   // Part 5
   const pastRaces = document.querySelector("#past-races");
@@ -63,10 +64,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   var blogPostsSection = document.querySelector(".main");
   blogPostsSection.appendChild(newBlogPost);
+  //create new blog post for new city in part 6 
 
   // Part 8
   const quote = document.querySelector('#quote-title')
   quote.addEventListener('click', randomQuote)
+  // loads a random DOM quote
 
   // Part 9
   const blogPosts = document.querySelectorAll('.blog-post');
@@ -82,3 +85,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
 });
+//apply two event handlers to each node  
+//first listening for mouseoutevents, 
+//second handler listening for mouseenterevents.
